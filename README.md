@@ -1,4 +1,4 @@
-# A* Search 3D Visualizer
+# A* Search 3D
 
 A simple 3D visualizer for the A* pathfinding algorithm. Enter a custom graph, set the start and goal nodes, and watch the algorithm find the shortest path step by step.
 
@@ -46,10 +46,16 @@ Edges are bidirectional and include their traversal cost.
 
 ## Project Structure
 
-```text
+Astar-3d/
+├── docs/
 ├── index.html
 ├── style.css
-└── script.js
-```
+├── script.js
+├── README.md
+└── .gitignore
 
 The A* algorithm is implemented from scratch in `script.js` using `f(n) = g(n) + h(n)`.
+
+## Author
+
+Samarth Varshney
