@@ -45,7 +45,7 @@ B G 3
 Edges are bidirectional and include their traversal cost.
 
 ## Project Structure
-
+```
 Astar-3d/
 ├── docs/
 ├── index.html
@@ -53,6 +53,7 @@ Astar-3d/
 ├── script.js
 ├── README.md
 └── .gitignore
+```
 
 The A* algorithm is implemented from scratch in `script.js` using `f(n) = g(n) + h(n)`.
 
